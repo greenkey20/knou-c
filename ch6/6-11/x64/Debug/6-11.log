@@ -1,0 +1,4 @@
+﻿  6-11.c
+C:\c_knou\ch6\6-11\6-11.c(6,19): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\c_knou\ch6\6-11\6-11.c(20): warning C4716: 'change': 값을 반환해야 합니다.
+  6-11.vcxproj -> C:\c_knou\ch6\6-11\x64\Debug\6-11.exe
