@@ -1,1 +1,2 @@
 C:\c_knou\정보처리기사\pointer5\pointer5\x64\Debug\pointer5.exe
+C:\c_knou\정보처리기사\pointer5\x64\Debug\pointer5.exe
