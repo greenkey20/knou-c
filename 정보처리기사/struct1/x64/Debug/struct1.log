@@ -1,0 +1,2 @@
+﻿  struct1.c
+C:\c_knou\정보처리기사\struct1\struct1.c(21,3): error C2106: '=': 왼쪽 피연산자는 l-value이어야 합니다.
