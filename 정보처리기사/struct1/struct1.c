@@ -30,7 +30,7 @@ void main() {
 	printf("%d\n", s1.num); // 202134123
 
 	/* 2022.7.17(일) 0h10
-	* 6-58 구조체와 포인터
+	* 6-58 구조체 + 포인터
 	*/
 	struct Student s2 = {"강로리", 'F', 5};
 	struct Student* p2 = &s2;
@@ -40,4 +40,12 @@ void main() {
 	printf("%s %c %d %d\n", p2->name, p2->gender, p2->age, p2->num);
 	printf("%s %c %d %d\n", (*p2).name, (*p2).gender, (*p2).age, (*p2).num);
 	printf("%s %c %d %d\n", p2[0].name, p2[0].gender, p2[0].age, p2[0].num);
+
+	/* 2022.7.18(월) 23h50
+	* 6-59 1차원 구조체 배열 + 포인터
+	*/
+	struct Student s[3] = { "강판다", 'M', 3, 202134999, "강혁", 'M', 5, 202134998, "강미피", 'F', 4, 202134997}; // struct Student라는 자료형/타입을 3개 가지고 있는 배열 s 선언 및 초기화
+	struct Student* p = s; // p라는 포인터 변수에 s의 주소 저장
+
+	// printf("%s %c %d %d\n");
 }
