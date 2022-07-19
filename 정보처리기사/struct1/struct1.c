@@ -13,7 +13,7 @@ struct Student {
 	int num; // 학번
 };
 
-void main() {
+void main() { // 반환 값 없는 함수
 	struct Student s1;
 	
 	// s.name[] = "강토미";
@@ -44,8 +44,8 @@ void main() {
 	/* 2022.7.18(월) 23h50
 	* 6-59 1차원 구조체 배열 + 포인터
 	*/
-	struct Student s[3] = { "강판다", 'M', 3, 202134999, "강혁", 'M', 5, 202134998, "강미피", 'F', 4, 202134997}; // struct Student라는 자료형/타입을 3개 가지고 있는 배열 s 선언 및 초기화
+	struct Student s[3] = { "강판다", 'M', 3, 202134999, "강혁", 'M', 5, 202134998, "강미피", 'F', 4, 202134997 }; // struct Student라는 자료형/타입을 3개 가지고 있는 배열 s 선언 및 초기화
 	struct Student* p = s; // p라는 포인터 변수에 s의 주소 저장
 
-	// printf("%s %c %d %d\n");
+	printf("학생 이름 : %s, 성별 : %c, 나이 : %d, 학번 : %d\n", s[0].name, s[0].gender, s[0].age, s[0].num); // 배열 s의 첫번째 원소로 담겨있는 구조체의 속성 값들을 출력
 }
