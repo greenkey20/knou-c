@@ -13,5 +13,5 @@ int fn2() {
 }
 
 void main() {
-
+	void(*pf1);
 }
