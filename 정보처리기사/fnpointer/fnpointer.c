@@ -9,7 +9,7 @@ void fn1() {
 	printf("fn1 함수에요\n");
 }
 
-int fn2(int num) { // call by value
+int fn2(int num) { // call by value cf. 매개변수 전달 방법 2가지
 	printf("매개변수 %d 받은 fn2 함수에요\n", num);
 	return 0;
 }
