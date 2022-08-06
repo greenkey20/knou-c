@@ -38,4 +38,6 @@ void main() { // 블록 A 시작
 void fcn1() {
 	int i;
 	i = 20;
+
+	printf("fcn1의 지역변수 i = %d\n", i);
 }
